@@ -1,0 +1,21 @@
+package pack;
+
+import java.util.Scanner;
+
+public class myCar extends Veichle{
+	public static void main(String[] Rohmany) {
+		Scanner scan = new Scanner(System.in);
+		int a = scan.nextInt();
+		int b = scan.nextInt();
+		int m = 0;
+		try {
+			 m = a / b;
+		}catch(Exception e) {
+			 m = Integer.MAX_VALUE;
+		}
+		System.out.println(m);
+		scan.close();
+	}
+
+	
+ }
